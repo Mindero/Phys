@@ -64,7 +64,7 @@
 
 
 \def\studenttitle#1{\gdef\@studenttitle{#1}}\studenttitle{\cyr\cyrs\cyrt%
-\cyru\cyrd\cyre\cyrn\cyrt\cyra}
+\cyru\cyrd\cyre\cyrn\cyrt\cyro\cyrv}
 \def\studentdone#1{\gdef\@studentdone{#1}}\studentdone{\cyrp\cyrr\cyro%
 \cyrsh\cyre\cyrd\cyrsh\cyre\cyrg\cyro}
 \def\studentfemale{\studenttitle{\cyrs\cyrt\cyru\cyrd\cyre\cyrn\cyrt%
@@ -276,7 +276,7 @@
     \typework{\cyr\cyrn\cyra\cyrp\cyri\cyrs\cyra\cyrn}
 }
 \DeclareOption{labwork}{%
-    \worktype{\cyr\CYRL\cyra\cyrb\cyro\cyrr\cyra\cyrt\cyro\cyrr\cyrn\cyra\cyrya\ \cyrr\cyra\cyrb\cyro\cyrt\cyra}
+    \worktype{\cyr\CYRL\cyra\cyrb\cyro\cyrr\cyra\cyrt\cyro\cyrr\cyrn\cyra\cyrya\ \cyrr\cyra\cyrb\cyro\cyrt\cyra\ \textnumero 1}
     \workname{\MakeUppercase{\@worktype}}
     \renewcommand{\maketitle}{\RefMakeTitle}
     \typework{\cyr\cyrn\cyra\cyrp\cyri\cyrs\cyra\cyrn}
