@@ -362,7 +362,7 @@
 \renewcommand{\thesubsection}{\arabic{section}.\arabic{subsection}}
 \renewcommand{\thesubsubsection}{\arabic{section}.\arabic{subsection}.\arabic{subsubsection}}
 
-\newcommand{\sectionbreak}{\clearpage}
+%\newcommand{\sectionbreak}{\clearpage}
 
 % Contents, intro, conclusion
 \newcommand{\structformat}
@@ -380,7 +380,7 @@
     \titlespacing{\section}
     {0cm}{3ex plus 1ex minus .2ex}{0.4ex plus.2ex}
     \titleformat{\section}[block]
-    {\hspace{1.25cm}\raggedright\bfseries}
+    {\hspace{1.25cm}\centering\bfseries}
     {\thesection}{1ex}{}
 }
 
